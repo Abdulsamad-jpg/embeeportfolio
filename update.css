@@ -1,0 +1,530 @@
+
+@font-face{
+    src: url(fonts/MADE\ Sunflower\ PERSONAL\ USE.otf);
+    font-family: sunflower;
+}
+@font-face{
+    src:url(./fonts/EM-Gilroy/Gilroy-Medium.ttf);
+    font-family: gillroy;
+
+}
+@font-face{
+    src: url(./fonts/EM-Gilroy/Gilroy-Bold.ttf);
+    font-family: gillbold;
+}
+@font-face{
+    src:url(./fonts/EM-Gilroy/Gilroy-SemiBold.ttf);
+    font-family: gillsemi;
+}
+@font-face{
+    src:url(./fonts/EM-Gilroy/Gilroy-Regular.ttf);
+    font-family: gillregular;
+}
+@font-face{
+    src:url(./fonts/Manrope-VariableFont_wght.ttf);
+    font-family:manrope;
+}
+
+#navbar{
+   
+    display: none;
+}
+.showNav{
+    display:block
+}
+.ham{text-align: center;
+    cursor: pointer;
+
+}
+body{
+    background-image: url(./Resources/background.png);
+    
+}
+.l-flex{
+    display:flex;
+    list-style-type:none;
+
+}
+.l-flex li{
+    margin-right: 1em;
+    margin-left:1em;
+}
+#whole{
+    
+        background-color: white;
+        color: rgba(87, 97, 114, 1);
+}
+
+@media only screen and (min-width:991px){
+    .navbar{
+    display: flex;
+    margin-left:83px ;
+    list-style-type: none;
+    margin-top: 52px;
+    
+
+}
+#hamb{
+    display:none;
+}
+#mobile{
+    display:none;
+}
+.navbar a{
+    font-family: Gillsemi;
+font-size: 24.234px;
+line-height: 28px;
+
+opacity: 0.4;
+    margin-right: 82px;
+    text-decoration:none;
+}
+#myLinks{
+    display:flex;
+}
+.ham{
+    display:none;
+}
+.wahala-d{
+    display:none
+}
+
+.top-flex{
+    display: flex;
+    justify-content:space-between
+    
+}
+#odd{
+    margin-right:3em
+}
+.logo {
+   
+    max-width: 100%;
+    margin-left: -4em;
+   
+   
+}
+
+.overflow{
+    overflow-x: hidden;
+}
+
+.intro{
+    overflow-x: hidden;
+    margin-top: 50px;
+    font-family: sunflower ;
+    
+    margin-left: 84px;
+    
+    }
+    .intro h3{
+        font-size: 65px;
+    }
+    
+.intro p{
+    font-family: gillroy;
+    font-size: 27px;
+    line-height: 40px;
+}
+#yellow{
+    color: rgba(233, 185, 63, 1);   
+}
+.f-container{
+display: flex;
+justify-content: space-between;
+
+overflow-x: hidden;
+}
+.project{
+    display:flex;
+    
+    margin-bottom: 100px;
+    
+    
+   
+}
+.scroll{
+    margin-left: 100px;
+    margin-bottom: 9em;
+    
+    
+}
+.scroll span{
+    margin-right: 1em;
+   
+}
+.scroll p{
+    font-family: Gillsemi;
+font-size: 18px;
+line-height: 24px;
+color: rgba(233, 185, 63, 1);
+}
+
+.project img{
+    margin-left: 100px;
+    max-width: 30%;
+}
+
+.project div {
+    
+    margin-left: 100px;
+
+
+}
+.project h4{
+  font-family: gillbold;
+  font-size: 48px;
+  line-height: 56.25px;
+  
+
+}
+.project p {
+    font-family: gillroy;
+font-size: 30px;
+line-height: 40px;
+
+
+}
+#annoying{
+    margin-left: 210px;
+}
+.special{
+    display: flex;
+    list-style: none;
+    margin-top: -2em;
+    margin-left: -2em;
+}
+.special li{
+    margin-right: 1em;
+    background-color: rgba(221, 166, 26, 0.2);
+    border-radius: 2.73888px;
+    font-family: gillsemi;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+padding: .3em;
+
+    
+    color: rgba(221, 166, 26, 1);
+
+    ;
+}
+.middle h3 {text-align: center;
+margin-top: 1em;
+margin-bottom: 1em;
+font-family: sunflower;
+font-size: 60px;
+line-height: 73px;}
+
+.y-btn{
+    background-color: rgba(233, 185, 63, 1) ;
+    width: 235px; 
+    height: 60px;
+    border-color: white;
+    color: white;
+    font-family: gillsemi;
+}
+.b-flex{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-top: 141px;
+}
+.image{
+    padding-left: 3em;
+    margin-top: -2em;
+}
+.blue{background: rgba(87, 97, 114, 1);
+    
+    height: 15px;
+}
+.brown{background: rgba(131, 75, 54, 1);
+    height:15px;
+}
+.yelzy{background: rgba(233, 185, 63, 1);
+    height:15px;
+}
+.browner{background: rgba(178, 112, 56, 1);
+    display:flex;
+    justify-content: space-between;
+    font-family: manrope;
+    font-weight:200;
+    font-size: 16px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-right: 1em;
+    padding-left:1em;
+}
+.beezy img{
+    max-width:60%;
+}
+#twitter{
+    margin-bottom:-.5em;
+}
+.idk{
+    margin-left:1em;
+    margin-top:-.8em;
+    color:rgba(233, 185, 63, 1)
+}
+.b-flex{
+    margin-bottom: 146px;
+}
+.footer div{
+    padding: 0%;
+}
+.f-hero h3{
+    font-family: sunflower;
+font-style: normal;
+font-weight: normal;
+font-size: 70px;
+line-height: 85px;
+color: #576172;
+}
+.f-hero p{
+    font-family: Gilroy-Medium;
+font-size: 27px;
+line-height: 40px;
+color: #576172;
+margin-top: -.5em;
+}
+.little {
+    padding-left:.5em;
+}
+
+
+}
+@media only screen and (max-width:450px){
+    .navbar #myLinks{
+        display: none;
+    }
+  #myLinks{
+      background-color: rgba(221, 166, 26, 1);
+      padding-bottom: 1.5em;
+      padding-top: 1.5em;
+
+  }
+  .beezy img {
+      max-width:30%;
+  }
+  .top-flex{
+      display:flex;
+      justify-content: space-between;
+      margin-top: 3em;
+  }
+  .navbar.responsive a{
+      float:none;
+      display:block;
+      text-align: left;
+      text-decoration: none;
+      font-size: 17px;
+  }
+  
+  .navbar a:hover {
+background-color: rgba(178, 112, 56, 1);
+  }
+  
+    .wahala-m{
+        display: none;
+    }
+  
+    .logo-d{text-align: center;}
+    
+    
+
+.logo {
+   
+    max-width: 80%;
+  
+   
+}
+
+.overflow{
+    overflow-x: hidden;
+}
+
+.intro{
+    font-family: MADE Sunflower;
+   text-align:center;
+    
+    
+    
+    }
+    .intro h3{ font-family: sunflower;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 47px;
+        letter-spacing: 0em;
+        margin-top: -1em;
+        
+    }
+    
+.intro p{
+    font-family: gillregular;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0em;
+margin-left: 50px;
+margin-right: 50px;
+}
+.f-container{
+    margin-top: -3em;
+}
+#desktop{
+    display:none;
+}
+#yellow{
+    color: rgba(233, 185, 63, 1);   
+}
+.f-container{
+overflow-x: hidden;
+}
+.project{
+    
+    margin-bottom: 100px;
+    
+    
+   
+}
+.scroll{text-align: center;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    
+    
+    
+}
+.overflow img{max-width: 100%;
+
+}
+.scroll span{
+    margin-right: 1em;
+   
+}
+.scroll p{
+   display: none;
+}
+.project div{
+    margin-left: 23px;
+}
+
+.project img{
+   margin-left: 23px;
+    max-width: 50%;
+    text-align: center;
+    
+}
+
+
+.project h4{
+  font-family: gillbold;
+  
+ 
+}
+.project p {
+    font-family: gillroy;
+
+
+}
+
+.special{
+    display: flex;
+    list-style: none;
+    margin-left:-2.5em;
+  
+}
+.special li{
+background-color: rgba(221, 166, 26, 0.2);
+font-family: Gilroy-SemiBold;
+font-size: 10px;
+line-height: 11px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: .3em;
+margin-right: .3em;
+
+    color: rgba(221, 166, 26, 1);
+    
+}
+.middle h3 {text-align: center;
+    font-family: sunflower;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31.2418px;
+    line-height: 38px;}
+
+.y-btn{
+    background-color: rgba(233, 185, 63, 1) ;
+    width: 140.21px;
+    height: 35.8px;
+    color: white;
+    font-family: gillsemi;
+    
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 0em;
+
+
+}
+.image{
+    text-align: center;
+}
+
+.image img{
+    max-width: 80%;
+    
+    
+    
+}
+.blue{background: rgba(87, 97, 114, 1);
+    
+    height: 15px;
+}
+.brown{background: rgba(131, 75, 54, 1);
+    height:15px;
+}
+.yelzy{background: rgba(233, 185, 63, 1);
+    height:15px;
+}
+.browner{background: rgba(178, 112, 56, 1);
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:3em;
+    padding-top:1em;
+    font-family:manrope;
+    font-weight: 200;
+    font-size:12px;
+
+}
+.b-flex{
+    margin-bottom: 146px;
+}
+.footer div{
+    padding: 0%;
+}
+.f-hero h3{
+    font-family: sunflower;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.f-hero p{
+    font-family: Gillsemi;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    font-size: 16.71px;
+    line-height: 30px;
+    text-align: center
+}
+#s-button{
+    text-align: center;
+}
+.little {
+    padding-left:.5em;
+}
+
+}
